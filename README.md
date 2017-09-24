@@ -11,6 +11,7 @@
 
 ![Diagram][diagram]
 
+## Initialization
 
 The initialization phase aims to generate N particles with different cooridinates and heading which representing the probability distribution of the robot (vehicle) initial position. The initialization algorithm follows the bellow steps :
 
