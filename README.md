@@ -40,12 +40,12 @@ The prediction phase algorithm follows the bellow steps :
 
 •. Predict the next time step (state) using the motion model 
 
-•. For each particle, updates the particle's location 
+•. For each particle, updates the particle's location : ![State][state]
+
+
 
 ![Prediction][prediction]
 
-
-![State][state]
 
 based on velocity and yaw rate measurements
 
