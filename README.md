@@ -1,7 +1,7 @@
 # CarND-Kidnapped-Vehicle-Project
 
 ## Introduction
-
+The purpose of this project is about the localization of a kidnapped robot. Therefor we need to implement a 2 dimensional particle filter in C++. The particle filter will be given a map and some initial localization information (analogous to what a GPS would provide). At each time step that filter will also get observation and control data. The localization process contains 4 steps : Initialization, Prediction, Update of weights and resampling. This process is repeated at each iteration triggered by the simulator.
 
 [//]: # (Image References)
 [init]: ./Images/Initialization.JPG
