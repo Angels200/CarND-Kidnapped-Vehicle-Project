@@ -7,7 +7,7 @@ The purpose of this project is about the localization of a kidnapped robot. Ther
 [init]: ./Images/Initialization.JPG
 [diagram]: ./Images/Localization.JPG
 [initeq]: ./Images/init_eq.gif
-
+[state]: ./Images/statevector.gif
 
 ![Diagram][diagram]
 
@@ -21,6 +21,7 @@ The initialization phase aims to generate N particles with different cooridinate
 Mean = (Xgps,Ygps, PSIgps)
 
 Std = (2,2,0.05)
+
 •.	The State vector at t=0 (initial time) is :
 
 ![Initeq][initeq]
@@ -29,4 +30,13 @@ Std = (2,2,0.05)
 
 ![Init][init]
 
+
+## Prediction
+
+The prediction phase algorithm follows the bellow steps :
+
+•. Predict the next time step (state) using the motion model l
+•. For each particle, updates the particle's location 
+
+![State][state]
 
