@@ -9,6 +9,9 @@ The purpose of this project is about the localization of a kidnapped robot. Ther
 [initeq]: ./Images/init_eq.gif
 [state]: ./Images/statevector.gif
 [update]: ./Images/updatequation.gif
+[prediction]: ./Images/Prediction.JPG
+
+
 ![Diagram][diagram]
 
 ## Initialization
@@ -39,13 +42,17 @@ The prediction phase algorithm follows the bellow steps :
 
 •. For each particle, updates the particle's location 
 
+![Prediction][prediction]
+
+
 ![State][state]
 
 based on velocity and yaw rate measurements
 
 •. Account for the the uncertainty in the control input, adds fgaussian noise to velocity and yaw rate
 
-Recall that the motion model is : 
+### Recall that the motion model is : 
 
 ![Update][update]
+
 
