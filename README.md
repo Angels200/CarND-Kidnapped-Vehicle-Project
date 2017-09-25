@@ -77,3 +77,11 @@ The figure above illustrates differents vehicle positions and heading
 Data association is the problem of matching landmarks measurements to objects in real world like map landmarks
 
 ![Datasso][datasso]
+
+Suppose we have two landmark's measurements (observations) and need to choose one among them. The solution is to take the closest measurement (observation) to the landmark coordinates in the Map system, using the Nearest Neighbor Algorithm.
+
+### Transformation 
+
+To proceed with the data association using the nearest neighbor algorithm between the landmark position in the Map coordinates system and each observation (measurment) of each particle (which is the probabilistic position of the vehicle among the N gaussian samples) we need to transform each observation expressed in vehicle coordinates system, to Map coordinates system
+
+
