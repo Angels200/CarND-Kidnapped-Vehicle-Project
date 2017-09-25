@@ -12,7 +12,8 @@ The purpose of this project is about the localization of a kidnapped robot. Ther
 [prediction]: ./Images/Prediction.JPG
 [syscoord]: ./Images/SystemCoord.JPG
 [datasso]: ./Images/dataassociation.JPG
-
+[origintransform]: ./Images/origintransform.JPG
+[htransformeq]: ./Images/HTransformeq.gif
 
 ![Diagram][diagram]
 
@@ -83,5 +84,13 @@ Suppose we have two landmark's measurements (observations) and need to choose on
 ### Transformation 
 
 To proceed with the data association using the nearest neighbor algorithm between the landmark position in the Map coordinates system and each observation (measurment) of each particle (which is the probabilistic position of the vehicle among the N gaussian samples) we need to transform each observation expressed in vehicle coordinates system, to Map coordinates system
+
+To illustrate the transformation phase, we need to consider the original situation before we apply the transformation equation.
+
+![Origintransform][origintransform]
+
+Now consider the Homogenous Transformation equations :
+
+![HTransformeq][htransformeq]
 
 
