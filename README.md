@@ -10,6 +10,8 @@ The purpose of this project is about the localization of a kidnapped robot. Ther
 [state]: ./Images/statevector.gif
 [update]: ./Images/updatequation.gif
 [prediction]: ./Images/Prediction.JPG
+[syscoord]: ./Images/SystemCoord.JPG
+[datasso]: ./Images/dataassociation.JPG
 
 
 ![Diagram][diagram]
@@ -56,3 +58,22 @@ based on velocity and yaw rate measurements
 ![Update][update]
 
 
+## Update Weights
+
+### Pre requisites
+•. Robot (vehicle) poisition  is described in Map coordinates system
+
+•. Sensor measurements are described in vehicle coordiantes system
+
+•. Map Landmarks position is described in Map coordinates system
+
+
+![Syscoord][syscoord]
+
+The figure above illustrates differents vehicle positions and heading
+
+### Data Association
+
+Data association is the problem of matching landmarks measurements to objects in real world like map landmarks
+
+![Datasso][datasso]
